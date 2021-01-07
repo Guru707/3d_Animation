@@ -8,11 +8,11 @@ container.addEventListener("mousemove", (e) =>{
 let xAxix = (window.innerWidth / 2 -  e.pageX) / 10 ;
 let yAxix = (window.innerHeight / 2   - e.pageY) / 10;
 card.style.transform = `rotateY(${xAxix}deg) rotateX(${yAxix}deg)`;
-title.style.transform = 'translateZ(100px)';
+title.style.transform = 'translateZ(150px)';
 shoe.style.transform = 'translateZ(200px) rotateZ(-45deg)' ;
 btn.style.transform = 'translateZ(100px)' ;
 btn_group.style.transform = 'translateZ(100px)' ;
-title.style.textShadow = '3px 2px 1px #ccc';
+// title.style.textShadow = '3px 2px 1px #ccc';
 });
 // mouseEnter
 container.addEventListener('mouseenter', (e) => {
